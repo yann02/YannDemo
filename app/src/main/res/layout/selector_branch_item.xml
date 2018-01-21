@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rl_branch_item_root"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/txt_tree_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margins"
+        android:textColor="@color/common_personInfo_text_bg"
+        android:textSize="16sp"
+        tools:text="阿里巴巴与四十大盗"/>
+
+    <CheckBox
+        android:id="@+id/cb_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margins"
+        android:button="@drawable/check_remember"
+        android:focusable="false"
+        android:textColor="#b2b2b2"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <RadioButton
+        android:id="@+id/rb_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margins"
+        android:button="@drawable/radio_selector"
+        android:focusable="false"
+        android:textColor="#b2b2b2"
+        android:textSize="16sp"/>
+</RelativeLayout>

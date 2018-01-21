@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--divider 背景色-->
+    <color name="leave_add_line">#dedede</color>
+
+    <color name="divider_list">#cccccc</color>
+    <color name="white">#ffffff</color>
+
+    <!--标题黑色字体-->
+    <color name="color_232323">#232323</color>
+
+    <color name="leave_add_btn_submit_normal">#feaa25</color>
+    <color name="leave_add_btn_submit_pressed">#feaa58</color>
+
+    <!--个人详情字体颜色-->
+    <color name="common_personInfo_text_bg">#919191</color>
 </resources>

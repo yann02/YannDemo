@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':baseReclyAdapterlibrary'
+project(':baseReclyAdapterlibrary').projectDir = new File('D:\\workSpace\\programByAndroid\\HainanGovernmentAffairWork\\HNZWPB\\library\\baseReclyAdapterlibrary\\trunk')

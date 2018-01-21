@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yann.yanndemo.ui.main.MainActivity">
+    tools:context="com.yann.yanndemo.ui.dialog.DialogActivity">
 
     <Button
-        android:id="@+id/btn_dialog"
+        android:id="@+id/btn_dialog_selector"
         android:layout_width="match_parent"
         android:layout_height="@dimen/comment_height"
-        android:text="@string/dialog"/>
+        android:text="@string/dialog_selector"/>
 
-</LinearLayout>
+</RelativeLayout>
